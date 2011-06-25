@@ -1,7 +1,7 @@
 # example
 
 A very (very) simple example of Clojure + Compojure project that can run on Heroku's Cedar stack.
-Get Requests will serve up <h3>Resource not found</h3> and /:name will return a {"name" : <:name arg here> } json object.
+Get Requests will serve up <h3>Hello World</h3> and /:name will return a {"name" : <:name arg here> } json object.
 
 ##Note: defroutes (GET "/" [] ... was causing me no end of problems; it worked fine, locally, on my box but not on Heroku. 
 Using GET "/*" fixes this but catches all request, So currently I'm just relying on route/not-found to resolve "/" requests...

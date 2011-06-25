@@ -6,4 +6,4 @@
 
 (defroutes main-routes
 	(GET "/:id" [id] (json-response {:name id}))
-	(route/not-found (html [:h3 "Resourse not found"])))
+	(route/not-found (html [:h3 "Hello World"])))
