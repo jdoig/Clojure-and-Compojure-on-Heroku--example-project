@@ -1,1 +1,1 @@
-web: lein run -m core.server
+web: lein run -m example.core
