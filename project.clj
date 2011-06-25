@@ -6,4 +6,4 @@
 					[hiccup "0.3.4"]
 					[clj-json "0.3.2"]
 					[ring/ring-jetty-adapter "0.3.8"]]
-	:ring {:handler webapp.server/app})
+	:ring {:handler example.core/app})
